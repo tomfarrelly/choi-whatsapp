@@ -1,0 +1,1 @@
+web: gunicorn choi_bot:app
