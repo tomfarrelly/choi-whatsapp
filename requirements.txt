@@ -1,23 +1,6 @@
-twilio whatsapp costs:
-
-$0.005 per message (sent or received)
-plus metas conversation fees (passed through)
-
-metas fees:
-
-first 1,000 conversations/month: free
-after that: ~$0.01 per conversation (24-hour window)
-
-so for choi:
-
-user texts choi → free conversation from meta, but $0.005 twilio fee per message
-after 1,000 free conversations → ~$0.015 per interaction ($0.01 meta + $0.005 twilio)
-
-load credit and pay as fans text
-for 2000 messages after the free 1k:
-
-twilio: ~$10
-meta: ~$10
-total: ~$20 (plus openai ~$5)
-
-So around $25 total for 2000 messages once past the free tier
+flask==3.0.0
+twilio==8.10.0
+openai==1.3.0
+requests==2.31.0
+python-dotenv==1.0.0
+gunicorn==21.2.0
